@@ -1,0 +1,10 @@
+pyrofork
+aiohttp
+motor
+tgcrypto
+aiofiles
+requests
+hachoir
+cloudscraper
+pycryptodome
+pytz

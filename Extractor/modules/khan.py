@@ -63,7 +63,7 @@ async def khan_login(app, message):
         if course['id'] == raw_text3:
             batch_name = course['title']
         else:
-            batch_name = "KHAN-SIR"
+            batch_name = "{batch_name}"
     url = "https://khanglobalstudies.com/api/user/courses/"+raw_text3+"/v2-lessons"
     response2 = requests.get(url, headers=headers)
     

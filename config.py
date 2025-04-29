@@ -23,9 +23,9 @@ PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-1002566364060"))
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("27900743"))
+API_ID = int(os.environ.get("API_ID"))
 # ------------------------------------------------
-API_HASH = os.environ.get("ebb06ea8d41420e60b29140dcee902fc")
+API_HASH = os.environ.get("API_HASH")
 # ----------------D--------------------------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 # -----------------A-------------------------------

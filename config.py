@@ -23,15 +23,15 @@ PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-1002566364060"))
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("API_ID"))
+API_ID = int(os.environ.get("27900743"))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH")
+API_HASH = os.environ.get("ebb06ea8d41420e60b29140dcee902fc")
 # ----------------D--------------------------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 # -----------------A-------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+OWNER_ID = int(os.environ.get("7804396225"))
 # ------------------X------------------------------
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
